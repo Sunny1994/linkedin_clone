@@ -1,0 +1,15 @@
+.inputoption{
+    display: flex;
+    
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inputoption:hover{
+    border: black;
+    font-weight: bold;
+}
+
+.inputoption>h4{
+    margin-left: 5px;
+}

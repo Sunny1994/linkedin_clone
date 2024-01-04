@@ -1,0 +1,11 @@
+.app{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.app_body{
+    display: flex;
+}
+
