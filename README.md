@@ -29,6 +29,7 @@ The right side widget has the latest news and headlines which is being consumed 
 
 You can logout when you click on your display picture on the top right side of the page
 
-![image](https://github.com/Sunny1994/linkedin_clone/assets/33688792/6c639a4c-01ce-4376-abe1-b9bff5c8a5bf)
+![image](https://github.com/Sunny1994/linkedin_clone/assets/33688792/3b23205a-e982-4a9b-8e1c-f587f26b0efd)
+
 
 
