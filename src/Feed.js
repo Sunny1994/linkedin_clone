@@ -19,7 +19,7 @@ const Feed=()=>{
      
     const [posts,setPosts]=useState([])
     const [input, setInput]= useState('')
-    const user= useSelector(selectUser)
+    const user= useSelector(selectUser);
 
     useEffect(()=>{
       
@@ -31,7 +31,6 @@ const Feed=()=>{
                data: doc.data()
               
             }))
-            
         )
        })
        
@@ -55,7 +54,6 @@ const Feed=()=>{
     const deleto= (document_uid)=>{
     
       snap(doc(dbc, 'posts', document_uid), (doc)=>{
-                
                 if(doc.data().uid===user?.uid){
                     deleteDoc(docomo(db, 'posts', document_uid))
                 }
@@ -85,7 +83,7 @@ const Feed=()=>{
                      <InputOption Icon={CalendarViewDayIcon} title='Calender' color="#FF0000"/>
                 </div>
             </div>
-                 <FlipMove>
+                <FlipMove>
                 {posts.map(({id, data:{
                     name,
                     description,
@@ -94,7 +92,7 @@ const Feed=()=>{
                     timestamp
 
                      }})=>(
-                    <Post key={id}
+                    <Post id={id}
                     name={name}
                     description={description}
                     message={message}
